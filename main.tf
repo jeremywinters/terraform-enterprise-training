@@ -44,7 +44,7 @@ provider "aws" {
 }
 
 variable "num_webs" {
-  default = "3"
+  default = "2"
 }
 
 resource "aws_instance" "web" {
